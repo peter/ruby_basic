@@ -1,0 +1,47 @@
+= Outline
+
+== Chapter 1: Ruby Introduction
+
+* About Ruby - features and philosophy
+* Ruby Timeline - some important milestones
+
+== Chapter 2: Structure and Execution
+
+* Ruby is line oriented
+* Single pass interpretation without main method
+* Source code is ASCII by default but can be configured to UTF-8
+* Naming conventions for classes, modules, methods, variables, and constants. Method name suffixes
+
+== Chapter 3: Classes and Objects
+
+== Chapter 4: Modules
+
+== Chapter 5: Variables and Constants
+
+== Chapter 6: Methods and Operators
+
+== Chapter 7: Boolean Expressions
+
+== Chapter 8: Assignment
+
+== Chapter 9: Datatypes
+
+== Chapter 10: Control Structures
+
+== Chapter 11: Reflection and Meta Programming
+
+== Chapter 12: Duck Typing
+
+== Chapter 13: Unit Testing
+
+* Test::Unit
+* MiniTest
+
+== Chapter 14: Files
+
+== Chapter 15: Libraries
+
+* RubyGems
+* Bundler
+* RVM
+* RDoc
