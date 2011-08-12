@@ -14,6 +14,9 @@
 
 == Chapter 3: Classes and Objects
 
+* Defining and instantiating the Person class
+* 
+
 == Chapter 4: Modules
 
 == Chapter 5: Variables and Constants

@@ -11,3 +11,7 @@
 - Jim Weirich - SOLID Ruby, building blocks of modularity
 - Try the slides with a projector
 - Creative Commons license
+- RubyGems and bundler, how to create a gem (Railscasts). Add Railscasts to resources, peepcode etc., ruby mailinglist, user groups, github
+- Explain attr_accessor
+- for file in $(find lib -iname '*.rb'); do ruby -Ilib $file; done
+- Enumerating strings with String#enum_for(:each_char|:each_byte|:each_line)
