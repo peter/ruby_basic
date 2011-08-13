@@ -32,6 +32,12 @@ end
 
 puts MyClass.ancestors.join(" < ")
 
-puts "\n* Modules included later will come before (take precedence) over earlier modules"
+puts "\n* Modules included later will override methods in earlier modules"
 object = MyClass.new
+
+def object.foobar
+  puts "foobar in the singleton method"
+  super
+end
+
 object.foobar

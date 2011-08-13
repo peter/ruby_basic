@@ -8,5 +8,7 @@ class Person
   end
 end
 
-andreas = Person.new("Andreas")
-andreas.say_hi
+if __FILE__ == $0
+  andreas = Person.new("Andreas")
+  andreas.say_hi
+end

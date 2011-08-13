@@ -35,3 +35,10 @@ end
 
 my_object = MyClass.new
 my_object.this_method_does_not_exist_i_think(2, 5)
+
+puts "\n* With send you can do dynamic method invocations"
+object = "Let's Send Some Methods"
+%w(upcase downcase split).each do |method|
+  puts "invoking method #{method}: #{object.send(method)}"
+end
+puts "invoking gsub('Methods', 'Messages'): #{object.send(:gsub, 'Methods', 'Messages')}"
