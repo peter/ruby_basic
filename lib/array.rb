@@ -4,17 +4,16 @@ a[1] = 99
 a << "Rails"
 puts "a == #{a}"
 
-puts "\n* For values without spaces, arrays can be created with %w (single quoted) and %W (double quoted)"
+puts "\n* The +, <<, and [] operators have the same semantics for arrays as for strings"
 b = %w{C Java Ruby}
 puts "b = #{b}"
 puts "b[1] == #{b[1]}"
-
-puts "\n* Access subarrays with []"
 puts "b[2, 1] == #{b[2, 1]}"
 puts "b[1..2] == #{b[1..2]}"
-
-puts "\n* Concatenation works like with strings"
 puts "a + b == #{a + b}"
+
+puts "\n* For strings without spaces, create arrays with %w (single quoted) and %W (double quoted):"
+puts "%w{C Java Ruby}"
 
 puts "\n* There are many useful Array methods"
 c = [3, 3, 2, 1]
@@ -38,12 +37,12 @@ puts "\n* Methods that end with exclamation mutate the object (potentially destr
 a.reject! { |value| value != 'Ruby' }
 puts "a.reject! { |value| value != 'Ruby' } => a == #{a}"
 
-puts "\n* Iteration can be done with each and a code block accepting an argument"
+puts "\n* Iteration can be done with Enumerable#each and a code block: c.each do |value| .. end"
 c.each do |value|
   puts value.to_s
 end
 
-puts "\n* If you need the index you can iterate using each_with_index"
+puts "\n* If you need access to the index - use the Enumerable#each_with_index method"
 c.each_with_index do |value, i|
   puts "index #{i}: #{value}"
 end

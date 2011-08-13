@@ -14,6 +14,10 @@
   * "the interface is everything"
   * "Ruby's primary focus is productivity."
 
+* {The Difference Between Ruby Symbols and Strings}[http://www.robertsosinski.com/2009/01/11/the-difference-between-ruby-symbols-and-strings/]
+
+* {Programming Ruby}[]
+
 === Resources
 
 * {About Ruby (ruby-lang.org)}[http://www.ruby-lang.org/en/about/]
