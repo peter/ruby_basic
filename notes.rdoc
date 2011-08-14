@@ -18,6 +18,10 @@
 
 * {Programming Ruby}[]
 
+
+“Design your programs to balance paranoia and flexibility”
+- Dave Thomas
+
 === Resources
 
 * {About Ruby (ruby-lang.org)}[http://www.ruby-lang.org/en/about/]

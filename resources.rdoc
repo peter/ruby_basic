@@ -12,7 +12,11 @@ Freiburg Course
 
 * {Ruby Inside}[http://www.rubyinside.com]
 
+* {Quack Attack: Making Your Code More Rubyish}[http://blog.rubybestpractices.com/posts/gregory/007-rubyish-code.html]
+* {Duck Typing in Practice (1 of 2)}[http://blog.rubybestpractices.com/posts/gregory/046-issue-14-duck-typing.html]
+* {Duck Typing in Practice (2 of 2)}[http://blog.rubybestpractices.com/posts/gregory/047-issue-15-duck-typing-2.html]
 
+* {Ruby: to_s vs. to_str}[http://briancarper.net/blog/98/]
 
 Interviews with Matz
 http://www.artima.com/intv/craft.html
