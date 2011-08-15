@@ -42,11 +42,14 @@ class Furnace
 end
 
 class Thermostat
-  # Here we should document the protocol that we expect
-  # the furnace object to conform to. Note that we could add assertions
-  # in the code here (by using respond_to?) to try to ensure that the furnace object has
-  # the methods that we expect. In practice though, such assertions would add little value.
+  # Creates a new Thermostat object
+  #
+  # @param [#on, #off] furnace on/off device that the thermostat will control
   def initialize(furnace)
+    # Note that we could add assertions
+    # in the code here (by using respond_to?) to try to ensure that the furnace object has
+    # the methods that we expect. In practice though, such assertions would probably
+    # add little value.
     @furnace = furnace
   end
   
@@ -79,8 +82,9 @@ end
 #  possibly more efficient way to transport the response. The Body commonly is an
 #  Array of Strings, the application instance itself, or a File-like object."
 #
-# Note how the Rack protocol is fairly strict and well specified and yet allows for a
-# lot of flexibility in what classes and objects you use.
+# Note how the Rack protocol is strict and well specified. The protocol is also quite
+# narrow and it helps minimize the dependency between the webserver and the application.
+# The protocol thus allows for a lot of flexibility in what classes and objects you use.
 #
 # Here is an example of a simple Rack application.
 

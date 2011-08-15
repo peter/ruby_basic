@@ -15,3 +15,5 @@
 - Explain attr_accessor
 - for file in $(find lib -iname '*.rb'); do ruby -Ilib $file; done
 - Enumerating strings with String#enum_for(:each_char|:each_byte|:each_line)
+- Change from Rdoc to Yard
+- Document duck_typing.rb with Yard
