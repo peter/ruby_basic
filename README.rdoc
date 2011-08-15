@@ -29,3 +29,8 @@
 * {Ruby on Wikipedia}[http://en.wikipedia.org/wiki/Ruby_%28programming_language%29]
 * {The TIOBE Index}[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html]
 * {Bill Venners Interviews with Matz on Artima Developer}[http://www.artima.com/intv/craft.html]
+
+== License
+
+This course material is released under a Creative Commons license, see LICENSE.html
+
