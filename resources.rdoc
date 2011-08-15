@@ -3,10 +3,16 @@
 == Books
 
 * {The Ruby Programming Language}[http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177] - by David Flanagan.
+* Programming Ruby
+* Ruby Best Practices
 
 == Courses
 
 Freiburg Course
+
+http://rubyreloaded.com/
+
+Mendicant University
 
 == News/Blogs
 
