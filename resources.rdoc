@@ -27,6 +27,7 @@ Mendicant University
 * {Ruby: to_s vs. to_str}[http://briancarper.net/blog/98/]
 
 * {Developing a RubyGem using Bundler}[https://github.com/radar/guides/blob/master/gem-development.md]
+* {New Gem with Bundler}[http://railscasts.com/episodes/245-new-gem-with-bundler]
 
 Interviews with Matz
 http://www.artima.com/intv/craft.html

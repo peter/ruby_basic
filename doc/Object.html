@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+
+  <title>Class: Object</title>
+
+  <link rel="stylesheet" href="./rdoc.css" type="text/css" media="screen" />
+
+  <script src="./js/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/thickbox-compressed.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/quicksearch.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/darkfish.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body id="top" class="class">
+
+  <div id="metadata">
+    <div id="home-metadata">
+      <div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="./index.html">Home</a>
+          <a href="./index.html#classes">Classes</a>
+          <a href="./index.html#methods">Methods</a>
+        </h3>
+      </div>
+    </div>
+
+    <div id="file-metadata">
+      <div id="file-list-section" class="section">
+        <h3 class="section-header">In Files</h3>
+        <div class="section-body">
+          <ul>
+          
+            <li><a href="./lib/blocks_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/blocks.rb">lib/blocks.rb</a></li>
+          
+            <li><a href="./lib/boolean_operators_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/boolean_operators.rb">lib/boolean_operators.rb</a></li>
+          
+            <li><a href="./lib/constants_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/constants.rb">lib/constants.rb</a></li>
+          
+            <li><a href="./lib/eval_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/eval.rb">lib/eval.rb</a></li>
+          
+            <li><a href="./lib/hash_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/hash.rb">lib/hash.rb</a></li>
+          
+            <li><a href="./lib/introspection_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/introspection.rb">lib/introspection.rb</a></li>
+          
+            <li><a href="./lib/method_missing_and_send_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/method_missing_and_send.rb">lib/method_missing_and_send.rb</a></li>
+          
+            <li><a href="./lib/methods_perentheses_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/methods_perentheses.rb">lib/methods_perentheses.rb</a></li>
+          
+            <li><a href="./lib/struct_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/struct.rb">lib/struct.rb</a></li>
+          
+            <li><a href="./lib/variable_arguments_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/variable_arguments.rb">lib/variable_arguments.rb</a></li>
+          
+          </ul>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div id="class-metadata">
+      
+      <!-- Parent Class -->
+      <div id="parent-class-section" class="section">
+        <h3 class="section-header">Parent</h3>
+        
+        <p class="link">BasicObject</p>
+        
+      </div>
+      
+
+      
+
+      
+
+      
+      <!-- Method Quickref -->
+      <div id="method-list-section" class="section">
+        <h3 class="section-header">Methods</h3>
+        <ul class="link-list">
+          
+          <li><a href="#method-c-const_missing">::const_missing</a></li>
+          
+          <li><a href="#method-i-callbacks">#callbacks</a></li>
+          
+          <li><a href="#method-i-d">#d</a></li>
+          
+          <li><a href="#method-i-evaluate_code">#evaluate_code</a></li>
+          
+          <li><a href="#method-i-my_method">#my_method</a></li>
+          
+          <li><a href="#method-i-print_values">#print_values</a></li>
+          
+          <li><a href="#method-i-square">#square</a></li>
+          
+          <li><a href="#method-i-time_code">#time_code</a></li>
+          
+          <li><a href="#method-i-time_code_verbose">#time_code_verbose</a></li>
+          
+        </ul>
+      </div>
+      
+
+      
+    </div>
+
+    <div id="project-metadata">
+      
+      
+      <div id="fileindex-section" class="section project-section">
+        <h3 class="section-header">Files</h3>
+        <ul>
+        
+          <li class="file"><a href="./README_rdoc.html">README.rdoc</a></li>
+        
+          <li class="file"><a href="./TODO.html">TODO</a></li>
+        
+          <li class="file"><a href="./exercises_rdoc.html">exercises.rdoc</a></li>
+        
+          <li class="file"><a href="./outline_rdoc.html">outline.rdoc</a></li>
+        
+          <li class="file"><a href="./resources_rdoc.html">resources.rdoc</a></li>
+        
+        </ul>
+      </div>
+      
+
+      <div id="classindex-section" class="section project-section">
+        <h3 class="section-header">Class/Module Index
+          <span class="search-toggle"><img src="./images/find.png"
+            height="16" width="16" alt="[+]"
+            title="show/hide quicksearch" /></span></h3>
+        <form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+        <fieldset>
+          <legend>Quicksearch</legend>
+          <input type="text" name="quicksearch" value=""
+            class="quicksearch-field" />
+        </fieldset>
+        </form>
+
+        <ul class="link-list">
+        
+          <li><a href="./MyAPI.html">MyAPI</a></li>
+        
+          <li><a href="./MyAPI/IllegalCalculation.html">MyAPI::IllegalCalculation</a></li>
+        
+          <li><a href="./MyApp.html">MyApp</a></li>
+        
+          <li><a href="./MyApp/Person.html">MyApp::Person</a></li>
+        
+          <li><a href="./Array.html">Array</a></li>
+        
+          <li><a href="./ComplexNumber.html">ComplexNumber</a></li>
+        
+          <li><a href="./FirstModule.html">FirstModule</a></li>
+        
+          <li><a href="./Furnace.html">Furnace</a></li>
+        
+          <li><a href="./HasAge.html">HasAge</a></li>
+        
+          <li><a href="./Integer.html">Integer</a></li>
+        
+          <li><a href="./MyClass.html">MyClass</a></li>
+        
+          <li><a href="./MyRackApplication.html">MyRackApplication</a></li>
+        
+          <li><a href="./MySuperClass.html">MySuperClass</a></li>
+        
+          <li><a href="./Object.html">Object</a></li>
+        
+          <li><a href="./People.html">People</a></li>
+        
+          <li><a href="./Person.html">Person</a></li>
+        
+          <li><a href="./PersonTest.html">PersonTest</a></li>
+        
+          <li><a href="./Peter.html">Peter</a></li>
+        
+          <li><a href="./Programmer.html">Programmer</a></li>
+        
+          <li><a href="./RDocExample.html">RDocExample</a></li>
+        
+          <li><a href="./RatingWithAverage.html">RatingWithAverage</a></li>
+        
+          <li><a href="./RubyProgrammer.html">RubyProgrammer</a></li>
+        
+          <li><a href="./SecondModule.html">SecondModule</a></li>
+        
+          <li><a href="./SubClass.html">SubClass</a></li>
+        
+          <li><a href="./Thermostat.html">Thermostat</a></li>
+        
+          <li><a href="./VCR.html">VCR</a></li>
+        
+        </ul>
+        <div id="no-class-search-results" style="display: none;">No matching classes.</div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div id="documentation">
+    <h1 class="class">Object</h1>
+
+    <div id="description" class="description">
+      
+    </div><!-- description -->
+
+    
+    
+    
+    <div id="5Buntitled-5D" class="documentation-section">
+      
+
+      
+
+      
+      <!-- Constants -->
+      <div id="constants-list" class="section">
+        <h3 class="section-header">Constants</h3>
+        <dl>
+        
+          <dt><a name="GLOBAL_CONSTANT">GLOBAL_CONSTANT</a></dt>
+          
+          <dd class="description"><p>Constants defined outside any class/module can be accessed anywhere</p></dd>
+          
+        
+          <dt><a name="Person">Person</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+          <dt><a name="Rating">Rating</a></dt>
+          
+          <dd class="description"></dd>
+          
+        
+        </dl>
+      </div>
+      
+
+      
+
+      <!-- Methods -->
+      
+      <div id="public-class-method-details" class="method-section section">
+        <h3 class="section-header">Public Class Methods</h3>
+
+      
+        <div id="const_missing-method" class="method-detail ">
+          <a name="method-c-const_missing"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">const_missing</span><span
+              class="method-args">(name)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            <p>Makes sure a class is required automatically whenever it is used. This is a
+naive implementation.</p>
+            
+
+            
+            <div class="method-source-code" id="const_missing-source">
+<pre>
+<span class="ruby-comment"># File lib/hooks.rb, line 9</span>
+<span class="ruby-keyword">def</span> <span class="ruby-constant">Object</span>.<span class="ruby-identifier">const_missing</span>(<span class="ruby-identifier">name</span>) 
+  <span class="ruby-ivar">@looked_for</span> <span class="ruby-operator">||=</span> {} 
+  <span class="ruby-identifier">str_name</span> = <span class="ruby-identifier">name</span>.<span class="ruby-identifier">to_s</span> 
+  <span class="ruby-identifier">raise</span> <span class="ruby-node">&quot;Class not found: #{name}&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-ivar">@looked_for</span>[<span class="ruby-identifier">str_name</span>] 
+  <span class="ruby-ivar">@looked_for</span>[<span class="ruby-identifier">str_name</span>] = <span class="ruby-value">1</span> 
+  <span class="ruby-identifier">file</span> = <span class="ruby-identifier">str_name</span>.<span class="ruby-identifier">downcase</span> 
+  <span class="ruby-identifier">require</span> <span class="ruby-identifier">file</span> 
+  <span class="ruby-identifier">klass</span> = <span class="ruby-identifier">const_get</span>(<span class="ruby-identifier">name</span>) 
+  <span class="ruby-keyword">return</span> <span class="ruby-identifier">klass</span> <span class="ruby-keyword">if</span> <span class="ruby-identifier">klass</span> 
+  <span class="ruby-identifier">raise</span> <span class="ruby-node">&quot;Class not found: #{name}&quot;</span> 
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- const_missing-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- const_missing-method -->
+
+      
+      </div><!-- public-class-method-details -->
+    
+      <div id="public-instance-method-details" class="method-section section">
+        <h3 class="section-header">Public Instance Methods</h3>
+
+      
+        <div id="callbacks-method" class="method-detail ">
+          <a name="method-i-callbacks"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">callbacks</span><span
+              class="method-args">(procs)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="callbacks-source">
+<pre>
+<span class="ruby-comment"># File lib/blocks.rb, line 45</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">callbacks</span>(<span class="ruby-identifier">procs</span>)
+  <span class="ruby-identifier">procs</span>[<span class="ruby-value">:starting</span>].<span class="ruby-identifier">call</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Still going&quot;</span>
+  <span class="ruby-identifier">procs</span>[<span class="ruby-value">:finishing</span>].<span class="ruby-identifier">call</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- callbacks-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- callbacks-method -->
+
+      
+        <div id="d-method" class="method-detail ">
+          <a name="method-i-d"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">d</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="d-source">
+<pre>
+<span class="ruby-comment"># File lib/boolean_operators.rb, line 28</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">d</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;d invoked&quot;</span>
+  <span class="ruby-identifier">$d_method_invoked</span> = <span class="ruby-keyword">true</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- d-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- d-method -->
+
+      
+        <div id="evaluate_code-method" class="method-detail ">
+          <a name="method-i-evaluate_code"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">evaluate_code</span><span
+              class="method-args">(code, binding)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="evaluate_code-source">
+<pre>
+<span class="ruby-comment"># File lib/eval.rb, line 2</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">evaluate_code</span>(<span class="ruby-identifier">code</span>, <span class="ruby-identifier">binding</span>)
+  <span class="ruby-identifier">a</span> = <span class="ruby-value">2</span>
+  <span class="ruby-identifier">eval</span> <span class="ruby-identifier">code</span>, <span class="ruby-identifier">binding</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- evaluate_code-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- evaluate_code-method -->
+
+      
+        <div id="my_method-method" class="method-detail ">
+          <a name="method-i-my_method"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">my_method</span><span
+              class="method-args">(options = {})</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="my_method-source">
+<pre>
+<span class="ruby-comment"># File lib/hash.rb, line 28</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">my_method</span>(<span class="ruby-identifier">options</span> = {})
+  <span class="ruby-identifier">options</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">key</span>, <span class="ruby-identifier">value</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;#{key}: #{value}&quot;</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- my_method-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- my_method-method -->
+
+      
+        <div id="print_values-method" class="method-detail ">
+          <a name="method-i-print_values"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">print_values</span><span
+              class="method-args">(first_arg, *args)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="print_values-source">
+<pre>
+<span class="ruby-comment"># File lib/variable_arguments.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">print_values</span>(<span class="ruby-identifier">first_arg</span>, *<span class="ruby-identifier">args</span>)
+  <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;first_arg = #{first_arg.inspect} args = #{args.inspect}&quot;</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-identifier">first_arg</span>.<span class="ruby-identifier">inspect</span>
+  <span class="ruby-identifier">args</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">arg</span><span class="ruby-operator">|</span>
+    <span class="ruby-identifier">puts</span> <span class="ruby-identifier">arg</span>.<span class="ruby-identifier">inspect</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- print_values-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- print_values-method -->
+
+      
+        <div id="square-method" class="method-detail ">
+          <a name="method-i-square"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">square</span><span
+              class="method-args">(number)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="square-source">
+<pre>
+<span class="ruby-comment"># File lib/methods_perentheses.rb, line 1</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">square</span>(<span class="ruby-identifier">number</span>)
+  <span class="ruby-identifier">number</span> * <span class="ruby-identifier">number</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- square-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- square-method -->
+
+      
+        <div id="time_code-method" class="method-detail ">
+          <a name="method-i-time_code"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">time_code</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="time_code-source">
+<pre>
+<span class="ruby-comment"># File lib/blocks.rb, line 6</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">time_code</span>
+  <span class="ruby-identifier">before</span> = <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span>
+  <span class="ruby-keyword">yield</span>
+  <span class="ruby-constant">Time</span>.<span class="ruby-identifier">now</span> <span class="ruby-operator">-</span> <span class="ruby-identifier">before</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- time_code-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- time_code-method -->
+
+      
+        <div id="time_code_verbose-method" class="method-detail ">
+          <a name="method-i-time_code_verbose"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">time_code_verbose</span><span
+              class="method-args">(&block)</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+            <div class="method-source-code" id="time_code_verbose-source">
+<pre>
+<span class="ruby-comment"># File lib/blocks.rb, line 30</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">time_code_verbose</span>(&amp;<span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Starting execution of code defined at: #{block.source_location}&quot;</span>
+  <span class="ruby-identifier">elapsed</span> = <span class="ruby-identifier">time_code</span>(&amp;<span class="ruby-identifier">block</span>)
+  <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Executing code took #{elapsed}&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+            </div><!-- time_code_verbose-source -->
+            
+          </div>
+
+          
+
+          
+        </div><!-- time_code_verbose-method -->
+
+      
+      </div><!-- public-instance-method-details -->
+    
+    </div><!-- 5Buntitled-5D -->
+  
+
+  </div><!-- documentation -->
+
+  <div id="validator-badges">
+    <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+    <p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+      Rdoc Generator</a> 2</small>.</p>
+  </div>
+
+</body>
+</html>
+
