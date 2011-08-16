@@ -1,5 +1,31 @@
 = Exercises
 
+== Ruby Version and Installation
+
 * This course was developed using MRI Ruby version 1.9.2
 * A good way to install ruby is to use the {Ruby Version Manager (RVM)}[http://beginrescueend.com]
 * You can run ruby commands with irb (Interactive Ruby) or from the command line with the ruby command
+
+== Chapter 3: Classes and Objects
+
+== Chapter 4: Modules
+
+== Chapter 5: Variables and Constants
+
+== Chapter 6: Methods and Operators
+
+== Chapter 7: Boolean Expressions
+
+== Chapter 8: Assignment
+
+== Chapter 9: Datatypes
+
+== Chapter 10: Control Structures
+
+== Chapter 11: Blocks and Proc Objects
+
+== Chapter 12: Reflection and Metaprogramming
+
+== Chapter 13: Standard Library
+
+== Chapter 14: RubyGems and Bundler

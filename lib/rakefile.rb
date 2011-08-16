@@ -16,8 +16,6 @@
 
 require 'rake'
 
-include Rake::DSL
-
 def delete(pattern)
   files = Dir[pattern]
   rm(files, verbose: true) unless files.empty?

@@ -1,36 +1,17 @@
-= Notes
+= Ruby Basic
 
-== Course Introduction
+== Introduction
 
-* Prerequisite - is there because of the two day time constraint. It means we can assume a conceptual familiarity with common programming constructs (if statements, objects, classes etc.).
+This is course material for a two day introductory course on Ruby programming. Included here are:
 
-== Ruby Introduction
+* Slides
+* Code examples
+* Exercises
 
-* Philosophy:
-  * Permissive and unrestrictive, more than one way to do it (Perl), everything can change at Runtime
-  * Human oriented - optimized for happiness (i.e. how the programmer reading/writing the code feels)
-  * "suitable for writing day to day scripts as well as full-scale applications"
-  * "Machines should serve human beings. Often programmers serve machines"
-  * "the interface is everything"
-  * "Ruby's primary focus is productivity."
+== Prerequisites
 
-* {The Difference Between Ruby Symbols and Strings}[http://www.robertsosinski.com/2009/01/11/the-difference-between-ruby-symbols-and-strings/]
-
-* {Programming Ruby}[]
-
-
-“Design your programs to balance paranoia and flexibility”
-- Dave Thomas
-
-=== Resources
-
-* {About Ruby (ruby-lang.org)}[http://www.ruby-lang.org/en/about/]
-* {Ruby From Other Languages (ruby-lang.org)}[http://www.ruby-lang.org/en/documentation/ruby-from-other-languages/]
-* {Ruby on Wikipedia}[http://en.wikipedia.org/wiki/Ruby_%28programming_language%29]
-* {The TIOBE Index}[http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html]
-* {Bill Venners Interviews with Matz on Artima Developer}[http://www.artima.com/intv/craft.html]
+Experience with object oriented programming.
 
 == License
 
 This course material is released under a Creative Commons license, see LICENSE.html
-
