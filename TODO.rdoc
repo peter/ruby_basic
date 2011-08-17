@@ -1,5 +1,4 @@
-- Send slides to friends
-- Send slides to Åsa (by friday 19:th of August)
+- Incorporate feedback from friends and update Credits (David Backeus, Peter Lind, Peter Hellberg etc.)
 - Use Markdown instead of RDoc?
 - Exercises
 - Publish as a RubyGem
@@ -7,5 +6,3 @@
 - Try the slides with a projector
 - Test example code: for file in $(find lib -iname '*.rb'); do ruby -Ilib $file >> /dev/null; done
 - Enumerating strings with String#enum_for(:each_char|:each_byte|:each_line)
-- Change from Rdoc to Yard
-- Document duck_typing.rb with Yard
