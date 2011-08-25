@@ -12,6 +12,13 @@ This is course material for a two day introductory course on Ruby programming. I
 
 Experience with object oriented programming.
 
+== Credits
+
+* {Johan Lind}[https://twitter.com/#!/jlind] - for feedback on the schedule (breaks and exercises), what the students need to bring to the course, course evaluation, and for reminding me of the "show don't tell" idea
+* {Peter Lind}[http://twitter.com/#!/peter_lind] - for various great feedback. Ruby is your friend, not your parent!
+* {Peter Hellberg}[http://peterhellberg.info] - for catching copy mistakes
+* {Peter Cooper}[http://peterc.org] - for providing me with a copy of the "Beginning Ruby" book and for pointing out the difference between a story vs. topic based approach to teaching
+
 == License
 
 This course material is released under a Creative Commons license, see LICENSE.html

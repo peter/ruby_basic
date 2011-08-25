@@ -1,10 +1,15 @@
 = Resources
 
+== Disclaimer
+
+This is a list of resources that I used or was inspired by when developing the course as well as resources that I use in my day-to-day work with Ruby. The list does not claim to be a good representation of all Ruby resources out there so make sure to Google around.
+
 == Books
 
 * {The Ruby Programming Language}[http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177]
 * {Programming Ruby}[http://www.amazon.com/Programming-Ruby-Pragmatic-Programmers-Second/dp/0974514055]
 * {Ruby Best Practices}[http://www.amazon.com/Ruby-Best-Practices-Gregory-Brown/dp/0596523009/ref=sr_1_1?s=books&ie=UTF8&qid=1313495112&sr=1-1]
+* {Beginning Ruby}[http://www.amazon.com/Beginning-Ruby-Novice-Professional-Experts/dp/1590597664]
 
 == Articles and Blog Posts
 * {About Ruby (ruby-lang.org)}[http://www.ruby-lang.org/en/about/]
@@ -31,6 +36,11 @@
 
 * {Ruby Reloaded}[http://rubyreloaded.com]
 * {Ruby Mendicant University}[http://university.rubymendicant.com]
+
+== Course Material and Exercises
+
+* {Ruby Koans}[http://rubykoans.com]
+* {Ruby Kickstart}[http://ruby-kickstart.com] (seems to be geared towards people with little or no programming experience)
 
 == Screencasts
 

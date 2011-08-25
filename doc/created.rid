@@ -1,4 +1,4 @@
-Tue, 16 Aug 2011 14:28:07 +0200
+Thu, 25 Aug 2011 16:48:07 +0200
 ./exercises.rdoc	Tue, 16 Aug 2011 13:20:40 +0200
 ./Gemfile	Mon, 15 Aug 2011 23:34:56 +0200
 ./lib/array.rb	Fri, 12 Aug 2011 14:07:05 +0200
@@ -51,8 +51,8 @@ Tue, 16 Aug 2011 14:28:07 +0200
 ./lib/variable_arguments.rb	Thu, 11 Aug 2011 12:24:03 +0200
 ./lib/variable_method.rb	Thu, 11 Aug 2011 17:15:07 +0200
 ./lib/variable_scope.rb	Thu, 11 Aug 2011 11:43:19 +0200
-./notes.rdoc	Tue, 16 Aug 2011 13:49:17 +0200
 ./Rakefile	Mon, 15 Aug 2011 23:34:56 +0200
-./README.rdoc	Tue, 16 Aug 2011 14:00:25 +0200
-./resources.rdoc	Tue, 16 Aug 2011 14:26:11 +0200
-./TODO.rdoc	Tue, 16 Aug 2011 13:40:09 +0200
+./README.rdoc	Thu, 25 Aug 2011 16:48:04 +0200
+./resources.rdoc	Thu, 25 Aug 2011 16:44:00 +0200
+./speaker_notes.rdoc	Thu, 25 Aug 2011 16:15:09 +0200
+./TODO.rdoc	Wed, 17 Aug 2011 11:48:27 +0200

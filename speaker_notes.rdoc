@@ -1,0 +1,34 @@
+= Speaker Notes
+
+== 1. Ruby Introduction
+
+=== Philosophy
+
+* Permissive and unrestrictive, more than one way to do it (Perl), everything can change at Runtime
+* Human oriented - optimized for happiness (i.e. how the programmer reading/writing the code feels)
+* "suitable for writing day to day scripts as well as full-scale applications"
+* "Machines should serve human beings. Often programmers serve machines"
+* "the interface is everything"
+* "Ruby's primary focus is productivity."
+* "Ruby is your friend, not your parent"
+* "Python and Ruby provide almost the same power to the programmer"
+* "Instead of emphasizing the what, I want to emphasize the how part: how we feel while programming. That's Ruby's main difference from other language designs. I emphasize the feeling, in particular, how I feel using Ruby. I didn't work hard to make Ruby perfect for everyone, because you feel differently from me. No language can be perfect for everyone. I tried to make Ruby perfect for me, but maybe it's not perfect for you. The perfect language for Guido van Rossum is probably Python."
+* Design your programs to balance paranoia and flexibility
+
+== 2. Structure and Execution
+
+=== Execution and I18n
+
+* For the general concept behind {IRB}[http://en.wikipedia.org/wiki/Interactive_Ruby_Shell] (The Interactive Ruby Shell), see {REPL}[http://en.wikipedia.org/wiki/Read-eval-print_loop]
+
+=== Identifier Names
+
+* The capital letter for constants and the variable name prefixes are not conventions, they are required by the interpreter
+
+
+
+== 6. Methods and Operators
+
+=== Defining and Invoking Methods
+
+* The return keyword is optional
