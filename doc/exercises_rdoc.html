@@ -138,9 +138,10 @@
     
 <h1>Exercises</h1>
 
-<h2>Ruby Version and Installation</h2>
+<h2>Make Sure Ruby is Installed</h2>
 <ul><li>
-<p>This course was developed using MRI Ruby version 1.9.2</p>
+<p>This course was developed using MRI Ruby version 1.9.2. You may check your
+ruby version by invoking ruby -v on the command line.</p>
 </li><li>
 <p>A good way to install ruby is to use the <a
 href="http://beginrescueend.com">Ruby Version Manager (RVM)</a></p>
@@ -152,29 +153,63 @@ line. Both commands accept a <tt>--help</tt> option that gives you a good
 overview of how they work.</p>
 </li></ul>
 
-<h2>Chapter 3: Classes and Objects</h2>
+<h2>Download the Course Material</h2>
 
-<h2>Chapter 4: Modules</h2>
+<pre># 1. a) If you have git installed on your machine:
+cd &lt;dir-where-you-want-to-keep-the-code&gt;
+git clone git@github.com:peter/ruby_basic.git
+cd ruby_basic
 
-<h2>Chapter 5: Variables and Constants</h2>
+# 1. b) If you don't have git installed
+cd &lt;dir-where-you-want-to-keep-the-code&gt;
+curl -o ruby_basic.tar.gz https://nodeload.github.com/peter/ruby_basic/tarball/master
+tar xzvf ruby_basic.tar.gz
+cd &lt;dir-that-was-expanded-by-tar&gt;</pre>
 
-<h2>Chapter 6: Methods and Operators</h2>
+<h2>Understand the Code Examples</h2>
+<ul><li>
+<p>Try running the example code in the lib directory by invoking ruby on the
+command line</p>
+</li><li>
+<p>Make sure you understand what is going on</p>
+</li><li>
+<p>Try modifying the code to alter its behaviour</p>
+</li><li>
+<p>Consult the <a href="http://www.ruby-doc.org/core">Ruby Core Reference</a>
+as well as the <a href="http://www.ruby-doc.org/stdlib">Ruby Standard
+Library Reference</a> as needed</p>
+</li><li>
+<p>Try running some of the Ruby code interactively in the irb console (invoke
+irb on the command line).</p>
+</li><li>
+<p>Ask questions!</p>
+</li></ul>
 
-<h2>Chapter 7: Boolean Expressions</h2>
+<p>Here is an example of how you can run a code example file:</p>
 
-<h2>Chapter 8: Assignment</h2>
+<pre>ruby -w lib/02_structure_and_execution/external_programs.rb</pre>
 
-<h2>Chapter 9: Datatypes</h2>
+<h2>Work Through the Ruby Koans Exercises</h2>
 
-<h2>Chapter 10: Control Structures</h2>
+<p>Install the <a href="http://rubykoans.com">Ruby Koans</a> and work through
+the exercises. The Ruby Koans will teach you not only Ruby, but also a Test
+Driven mindset that is prevalent in the Ruby community. Here is how you can
+download and start using the Ruby Koans (assuming you are in a Unix type
+terminal):</p>
 
-<h2>Chapter 11: Blocks and Proc Objects</h2>
+<pre># 1. a) Checkout from github if you have git installed on your machine
+cd &lt;dir-where-you-keep-your-code&gt;
+git clone https://github.com/edgecase/ruby_koans.git
+cd ruby_koans
 
-<h2>Chapter 12: Reflection and Metaprogramming</h2>
+# 1. b) If you don't have Git installed, download the Koans instead:
+cd &lt;dir-where-you-keep-your-code&gt;
+curl -o koans.tar.gz https://nodeload.github.com/edgecase/ruby_koans/tarball/master
+tar xzvf koans.tar.gz
+cd &lt;dir-that-was-expanded-by-tar&gt;
 
-<h2>Chapter 13: Standard Library</h2>
-
-<h2>Chapter 14: RubyGems and Bundler</h2>
+# 2. Execute the Koans and follow the instructions
+ruby koans/path_to_enlightenment.rb</pre>
 
   </div>
 

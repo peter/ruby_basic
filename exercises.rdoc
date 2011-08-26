@@ -1,33 +1,50 @@
 = Exercises
 
-== Ruby Version and Installation
+== Make Sure Ruby is Installed
 
-* This course was developed using MRI Ruby version 1.9.2
+* This course was developed using MRI Ruby version 1.9.2. You may check your ruby version by invoking ruby -v on the command line.
 * A good way to install ruby is to use the {Ruby Version Manager (RVM)}[http://beginrescueend.com]
 * You can try running ruby commands interactively with the +irb+ (Interactive Ruby) command or execute ruby scripts with the +ruby+ command. Both +irb+ and +ruby+ can be invoked on the command line. Both commands accept a +--help+ option that gives you a good overview of how they work.
 
-== Chapter 3: Classes and Objects
+== Download the Course Material
 
+  # 1. a) If you have git installed on your machine:
+  cd <dir-where-you-want-to-keep-the-code>
+  git clone git@github.com:peter/ruby_basic.git
+  cd ruby_basic
 
+  # 1. b) If you don't have git installed
+  cd <dir-where-you-want-to-keep-the-code>
+  curl -o ruby_basic.tar.gz https://nodeload.github.com/peter/ruby_basic/tarball/master
+  tar xzvf ruby_basic.tar.gz
+  cd <dir-that-was-expanded-by-tar>
 
-== Chapter 4: Modules
+== Understand the Code Examples
 
-== Chapter 5: Variables and Constants
+* Try running the example code in the lib directory by invoking ruby on the command line
+* Make sure you understand what is going on
+* Try modifying the code to alter its behaviour
+* Consult the {Ruby Core Reference}[http://www.ruby-doc.org/core] as well as the {Ruby Standard Library Reference}[http://www.ruby-doc.org/stdlib] as needed
+* Try running some of the Ruby code interactively in the irb console (invoke irb on the command line).
+* Ask questions!
 
-== Chapter 6: Methods and Operators
+Here is an example of how you can run a code example file:
 
-== Chapter 7: Boolean Expressions
+  ruby -w lib/02_structure_and_execution/external_programs.rb
 
-== Chapter 8: Assignment
+== Work Through the Ruby Koans Exercises
 
-== Chapter 9: Datatypes
+Install the {Ruby Koans}[http://rubykoans.com] and work through the exercises. The Ruby Koans will teach you not only Ruby, but also a Test Driven mindset that is prevalent in the Ruby community. Here is how you can download and start using the Ruby Koans (assuming you are in a Unix type terminal):
+  # 1. a) Checkout from github if you have git installed on your machine
+  cd <dir-where-you-keep-your-code>
+  git clone https://github.com/edgecase/ruby_koans.git
+  cd ruby_koans
 
-== Chapter 10: Control Structures
+  # 1. b) If you don't have Git installed, download the Koans instead:
+  cd <dir-where-you-keep-your-code>
+  curl -o koans.tar.gz https://nodeload.github.com/edgecase/ruby_koans/tarball/master
+  tar xzvf koans.tar.gz
+  cd <dir-that-was-expanded-by-tar>
 
-== Chapter 11: Blocks and Proc Objects
-
-== Chapter 12: Reflection and Metaprogramming
-
-== Chapter 13: Standard Library
-
-== Chapter 14: RubyGems and Bundler
+  # 2. Execute the Koans and follow the instructions
+  ruby koans/path_to_enlightenment.rb

@@ -1,5 +1,5 @@
-Fri, 26 Aug 2011 11:32:49 +0200
-./exercises.rdoc	Fri, 26 Aug 2011 11:32:46 +0200
+Fri, 26 Aug 2011 14:21:46 +0200
+./exercises.rdoc	Fri, 26 Aug 2011 14:21:44 +0200
 ./Gemfile	Mon, 15 Aug 2011 23:34:56 +0200
 ./lib/02_structure_and_execution/external_programs.rb	Fri, 26 Aug 2011 11:22:14 +0200
 ./lib/02_structure_and_execution/load_path.rb	Fri, 26 Aug 2011 11:27:08 +0200
@@ -52,7 +52,7 @@ Fri, 26 Aug 2011 11:32:49 +0200
 ./lib/ruby_basic/version.rb	Fri, 26 Aug 2011 11:05:22 +0200
 ./lib/ruby_basic.rb	Fri, 26 Aug 2011 11:05:27 +0200
 ./Rakefile	Mon, 15 Aug 2011 23:34:56 +0200
-./README.rdoc	Fri, 26 Aug 2011 09:28:26 +0200
+./README.rdoc	Fri, 26 Aug 2011 14:05:40 +0200
 ./resources.rdoc	Fri, 26 Aug 2011 09:23:28 +0200
 ./speaker_notes.rdoc	Thu, 25 Aug 2011 16:15:09 +0200
 ./TODO.rdoc	Fri, 26 Aug 2011 11:09:52 +0200
