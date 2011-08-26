@@ -1,8 +1,5 @@
-- Incorporate feedback from friends and update Credits (David Backeus, Peter Lind, Peter Hellberg etc.)
-- Use Markdown instead of RDoc?
+- Test example code: for file in $(find lib -iname '*.rb'); do ruby -Ilib -w $file >> /dev/null; done
 - Exercises
 - Publish as a RubyGem
 - Incorporate ideas from Beginning Ruby book by Peter Cooper
-- Try the slides with a projector
-- Test example code: for file in $(find lib -iname '*.rb'); do ruby -Ilib $file >> /dev/null; done
 - Enumerating strings with String#enum_for(:each_char|:each_byte|:each_line)

@@ -34,23 +34,23 @@
         <div class="section-body">
           <ul>
           
-            <li><a href="./lib/constants_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-              class="thickbox" title="lib/constants.rb">lib/constants.rb</a></li>
+            <li><a href="./lib/03_classes_and_objects/current_object_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/03_classes_and_objects/current_object.rb">lib/03_classes_and_objects/current_object.rb</a></li>
           
-            <li><a href="./lib/current_object_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-              class="thickbox" title="lib/current_object.rb">lib/current_object.rb</a></li>
+            <li><a href="./lib/04_modules/inheritance_chain_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/04_modules/inheritance_chain.rb">lib/04_modules/inheritance_chain.rb</a></li>
           
-            <li><a href="./lib/inheritance_chain_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-              class="thickbox" title="lib/inheritance_chain.rb">lib/inheritance_chain.rb</a></li>
+            <li><a href="./lib/05_variables_and_constants/constants_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/05_variables_and_constants/constants.rb">lib/05_variables_and_constants/constants.rb</a></li>
           
-            <li><a href="./lib/method_missing_and_send_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-              class="thickbox" title="lib/method_missing_and_send.rb">lib/method_missing_and_send.rb</a></li>
+            <li><a href="./lib/05_variables_and_constants/variable_scope_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/05_variables_and_constants/variable_scope.rb">lib/05_variables_and_constants/variable_scope.rb</a></li>
           
-            <li><a href="./lib/method_visibility_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-              class="thickbox" title="lib/method_visibility.rb">lib/method_visibility.rb</a></li>
+            <li><a href="./lib/06_methods_and_operators/method_visibility_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/06_methods_and_operators/method_visibility.rb">lib/06_methods_and_operators/method_visibility.rb</a></li>
           
-            <li><a href="./lib/variable_scope_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-              class="thickbox" title="lib/variable_scope.rb">lib/variable_scope.rb</a></li>
+            <li><a href="./lib/12_reflection_and_meta_programming/method_missing_and_send_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/12_reflection_and_meta_programming/method_missing_and_send.rb">lib/12_reflection_and_meta_programming/method_missing_and_send.rb</a></li>
           
           </ul>
         </div>
@@ -277,7 +277,7 @@
             
             <div class="method-source-code" id="new-source">
 <pre>
-<span class="ruby-comment"># File lib/variable_scope.rb, line 6</span>
+<span class="ruby-comment"># File lib/05_variables_and_constants/variable_scope.rb, line 6</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>
   <span class="ruby-ivar">@instance_variable</span> = <span class="ruby-value">3</span> <span class="ruby-comment"># Available in instance methods</span>
 <span class="ruby-keyword">end</span></pre>
@@ -316,7 +316,7 @@
             
             <div class="method-source-code" id="foobar-source">
 <pre>
-<span class="ruby-comment"># File lib/current_object.rb, line 8</span>
+<span class="ruby-comment"># File lib/03_classes_and_objects/current_object.rb, line 8</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">foobar</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">inspect</span>
 <span class="ruby-keyword">end</span></pre>
@@ -349,7 +349,7 @@
             
             <div class="method-source-code" id="method_missing-source">
 <pre>
-<span class="ruby-comment"># File lib/method_missing_and_send.rb, line 31</span>
+<span class="ruby-comment"># File lib/12_reflection_and_meta_programming/method_missing_and_send.rb, line 31</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">method_missing</span>(<span class="ruby-identifier">method</span>, *<span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">block</span>)
   <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;method_missing invoked with #{method} #{args}&quot;</span>
 <span class="ruby-keyword">end</span></pre>
@@ -382,7 +382,7 @@
             
             <div class="method-source-code" id="my_method-source">
 <pre>
-<span class="ruby-comment"># File lib/constants.rb, line 8</span>
+<span class="ruby-comment"># File lib/05_variables_and_constants/constants.rb, line 8</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">my_method</span>
   <span class="ruby-comment"># Constants cannot be defined in methods</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-constant">GLOBAL_CONSTANT</span>
@@ -417,7 +417,7 @@
             
             <div class="method-source-code" id="print_variables-source">
 <pre>
-<span class="ruby-comment"># File lib/variable_scope.rb, line 10</span>
+<span class="ruby-comment"># File lib/05_variables_and_constants/variable_scope.rb, line 10</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">print_variables</span>
   <span class="ruby-identifier">local_variable</span> = <span class="ruby-value">4</span> <span class="ruby-comment"># Available only in this method</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;global_variable=#{$global_variable}&quot;</span> <span class="ruby-operator">+</span>
@@ -454,7 +454,7 @@
             
             <div class="method-source-code" id="public_method-source">
 <pre>
-<span class="ruby-comment"># File lib/method_visibility.rb, line 4</span>
+<span class="ruby-comment"># File lib/06_methods_and_operators/method_visibility.rb, line 4</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">public_method</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;public_method invoked&quot;</span>
   <span class="ruby-identifier">private_method</span> <span class="ruby-comment"># You can invoke private methods from instance methods</span>
@@ -498,7 +498,7 @@ class. Protected methods can have an explicit receiver.</p>
             
             <div class="method-source-code" id="protected_method-source">
 <pre>
-<span class="ruby-comment"># File lib/method_visibility.rb, line 16</span>
+<span class="ruby-comment"># File lib/06_methods_and_operators/method_visibility.rb, line 16</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">protected_method</span>
   <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;protected_method invoked&quot;</span>
 <span class="ruby-keyword">end</span></pre>

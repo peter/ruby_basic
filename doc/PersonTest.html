@@ -34,8 +34,8 @@
         <div class="section-body">
           <ul>
           
-            <li><a href="./lib/unit_testing_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-              class="thickbox" title="lib/unit_testing.rb">lib/unit_testing.rb</a></li>
+            <li><a href="./lib/13_standard_library/unit_testing_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/13_standard_library/unit_testing.rb">lib/13_standard_library/unit_testing.rb</a></li>
           
           </ul>
         </div>
@@ -236,7 +236,7 @@ assert_raise assert_nothing_raised</p>
             
             <div class="method-source-code" id="setup-source">
 <pre>
-<span class="ruby-comment"># File lib/unit_testing.rb, line 31</span>
+<span class="ruby-comment"># File lib/13_standard_library/unit_testing.rb, line 31</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">setup</span>
   <span class="ruby-ivar">@person</span> = <span class="ruby-constant">Person</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">&quot;Joe&quot;</span>, <span class="ruby-value">43</span>)
 <span class="ruby-keyword">end</span></pre>
@@ -269,7 +269,7 @@ assert_raise assert_nothing_raised</p>
             
             <div class="method-source-code" id="teardown-source">
 <pre>
-<span class="ruby-comment"># File lib/unit_testing.rb, line 35</span>
+<span class="ruby-comment"># File lib/13_standard_library/unit_testing.rb, line 35</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">teardown</span>
   <span class="ruby-comment"># Nothing to tear down in this case</span>
 <span class="ruby-keyword">end</span></pre>
@@ -302,7 +302,7 @@ assert_raise assert_nothing_raised</p>
             
             <div class="method-source-code" id="test_age-source">
 <pre>
-<span class="ruby-comment"># File lib/unit_testing.rb, line 45</span>
+<span class="ruby-comment"># File lib/13_standard_library/unit_testing.rb, line 45</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">test_age</span>
   <span class="ruby-identifier">assert_equal</span> <span class="ruby-value">43</span>, <span class="ruby-ivar">@person</span>.<span class="ruby-identifier">age</span>
   <span class="ruby-ivar">@person</span>.<span class="ruby-identifier">age</span> = <span class="ruby-value">15</span>
@@ -337,7 +337,7 @@ assert_raise assert_nothing_raised</p>
             
             <div class="method-source-code" id="test_name-source">
 <pre>
-<span class="ruby-comment"># File lib/unit_testing.rb, line 39</span>
+<span class="ruby-comment"># File lib/13_standard_library/unit_testing.rb, line 39</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">test_name</span>
   <span class="ruby-identifier">assert_equal</span> <span class="ruby-string">&quot;Joe&quot;</span>, <span class="ruby-ivar">@person</span>.<span class="ruby-identifier">name</span>
   <span class="ruby-ivar">@person</span>.<span class="ruby-identifier">name</span> = <span class="ruby-string">&quot;Peter&quot;</span>
@@ -372,7 +372,7 @@ assert_raise assert_nothing_raised</p>
             
             <div class="method-source-code" id="test_old-source">
 <pre>
-<span class="ruby-comment"># File lib/unit_testing.rb, line 51</span>
+<span class="ruby-comment"># File lib/13_standard_library/unit_testing.rb, line 51</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">test_old</span>
   <span class="ruby-identifier">assert</span> <span class="ruby-ivar">@person</span>.<span class="ruby-identifier">old?</span>
   <span class="ruby-ivar">@person</span>.<span class="ruby-identifier">age</span> = <span class="ruby-value">39</span>

@@ -8,7 +8,7 @@ class Person
   end
 end
 
-if __FILE__ == $0
+if __FILE__ == $0 # Enter here if this file is executed standalone but not if it's required by other file
   andreas = Person.new("Andreas")
   andreas.say_hi
 end

@@ -4,9 +4,11 @@
 
 * This course was developed using MRI Ruby version 1.9.2
 * A good way to install ruby is to use the {Ruby Version Manager (RVM)}[http://beginrescueend.com]
-* You can run ruby commands with irb (Interactive Ruby) or from the command line with the ruby command
+* You can try running ruby commands interactively with the +irb+ (Interactive Ruby) command or execute ruby scripts with the +ruby+ command. Both +irb+ and +ruby+ can be invoked on the command line. Both commands accept a +--help+ option that gives you a good overview of how they work.
 
 == Chapter 3: Classes and Objects
+
+
 
 == Chapter 4: Modules
 

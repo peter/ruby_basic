@@ -34,8 +34,8 @@
         <div class="section-body">
           <ul>
           
-            <li><a href="./lib/method_missing_and_send_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
-              class="thickbox" title="lib/method_missing_and_send.rb">lib/method_missing_and_send.rb</a></li>
+            <li><a href="./lib/12_reflection_and_meta_programming/method_missing_and_send_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+              class="thickbox" title="lib/12_reflection_and_meta_programming/method_missing_and_send.rb">lib/12_reflection_and_meta_programming/method_missing_and_send.rb</a></li>
           
           </ul>
         </div>
@@ -224,7 +224,7 @@
             
             <div class="method-source-code" id="new-source">
 <pre>
-<span class="ruby-comment"># File lib/method_missing_and_send.rb, line 4</span>
+<span class="ruby-comment"># File lib/12_reflection_and_meta_programming/method_missing_and_send.rb, line 4</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>
   <span class="ruby-ivar">@messages</span> = []
 <span class="ruby-keyword">end</span></pre>
@@ -263,7 +263,7 @@
             
             <div class="method-source-code" id="method_missing-source">
 <pre>
-<span class="ruby-comment"># File lib/method_missing_and_send.rb, line 8</span>
+<span class="ruby-comment"># File lib/12_reflection_and_meta_programming/method_missing_and_send.rb, line 8</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">method_missing</span>(<span class="ruby-identifier">method</span>, *<span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">block</span>)
   <span class="ruby-ivar">@messages</span> <span class="ruby-operator">&lt;&lt;</span> [<span class="ruby-identifier">method</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">block</span>]
 <span class="ruby-keyword">end</span></pre>
@@ -296,7 +296,7 @@
             
             <div class="method-source-code" id="play_back_to-source">
 <pre>
-<span class="ruby-comment"># File lib/method_missing_and_send.rb, line 12</span>
+<span class="ruby-comment"># File lib/12_reflection_and_meta_programming/method_missing_and_send.rb, line 12</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">play_back_to</span>(<span class="ruby-identifier">obj</span>)
   <span class="ruby-ivar">@messages</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">method</span>, <span class="ruby-identifier">args</span>, <span class="ruby-identifier">block</span><span class="ruby-operator">|</span>
     <span class="ruby-identifier">obj</span>.<span class="ruby-identifier">send</span>(<span class="ruby-identifier">method</span>, *<span class="ruby-identifier">args</span>, &amp;<span class="ruby-identifier">block</span>)

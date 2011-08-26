@@ -2,7 +2,7 @@
 
 == Disclaimer
 
-This is a list of resources that I used or was inspired by when developing the course as well as resources that I use in my day-to-day work with Ruby. The list does not claim to be a good representation of all Ruby resources out there so make sure to Google around.
+This is a list of resources that I used or was inspired by when developing the course as well as resources that I use in my day-to-day work. The list does not claim to be a good representation of all Ruby resources out there so make sure to search around.
 
 == Books
 
@@ -31,6 +31,7 @@ This is a list of resources that I used or was inspired by when developing the c
 
 * {Ruby Inside}[http://www.rubyinside.com]
 * {Ruby Flow}[http://www.rubyflow.com]
+* {Ruby Weekly}[http://rubyweekly.com]
 
 == Courses
 
