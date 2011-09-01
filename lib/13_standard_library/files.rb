@@ -4,12 +4,12 @@ require 'tempfile'
 puts "* The File class has a number of useful class methods to get information about a file"
 
 # __FILE__ is the path of this file
-path = __FILE__
-puts "\n__FILE__ == #{path}"
+this_path = __FILE__
+puts "\n__FILE__ == #{this_path}"
 puts
 class_methods = %w(dirname basename extname exists? executable? file? directory? size mtime)
 class_methods.each do |class_method|
-  puts "File.#{class_method} => #{File.send(class_method, path)}"
+  puts "File.#{class_method} => #{File.send(class_method, this_path)}"
 end
 
 puts "\n* You can use File.join to join together a directory path and a filename"
