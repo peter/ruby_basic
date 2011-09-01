@@ -16,7 +16,7 @@ rescue SocketError => e
   attempts += 1
   retry unless attempts >= 3
 rescue Exception => e
-  puts "Unknown exception: #{e} #{e.backtrace.join("\n")}"
+  puts "Unknown exception: #{e.message} #{e.backtrace.join("\n")}"
   raise
 ensure
   puts "The ensure block will always execute, no matter what"

@@ -1,4 +1,7 @@
+.idea
 *.gem
 .bundle
 Gemfile.lock
 pkg/*
+lib/test.rb
+
