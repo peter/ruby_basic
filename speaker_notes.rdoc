@@ -24,11 +24,3 @@
 === Identifier Names
 
 * The capital letter for constants and the variable name prefixes are not conventions, they are required by the interpreter
-
-
-
-== 6. Methods and Operators
-
-=== Defining and Invoking Methods
-
-* The return keyword is optional

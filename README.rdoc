@@ -9,6 +9,25 @@ This is course material for a two day introductory course on Ruby programming. I
 
 For the exercise part of the course we will be using the excellent {Ruby Koans}[http://rubykoans.com], see exercises.rdoc.
 
+== Contents at a Glance
+
+The contents and structure of the course is highly influenced by the {The Ruby Programming Language}[http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177] book by David Flanagan.
+
+1. Ruby Introduction
+2. Structure and Execution
+3. Datatypes
+4. Control Structures
+5. Variables and Constants
+6. Boolean Expressions
+7. Assignment
+8. Classes and Objects
+9. Modules
+10. Methods and Operators
+11. Blocks and Proc Objects
+12. Reflection and Meta Programming
+13. Standard Library
+14. RubyGems and Bundler
+
 == Prerequisites
 
 Experience with object oriented programming.
@@ -17,7 +36,7 @@ Experience with object oriented programming.
 
 * {Johan Lind}[https://twitter.com/#!/jlind] - for feedback on the schedule (breaks and exercises), what the students need to bring to the course, course evaluation, and for reminding me of the "show don't tell" idea
 * {Peter Lind}[http://twitter.com/#!/peter_lind] - for various great feedback. Ruby is your friend, not your parent...
-* {David Backeus}[https://github.com/dbackeus] - reminded me of "show don't tell" too and provided {this gist on linebreaks}[https://gist.github.com/1149392]
+* {David Backeus}[https://github.com/dbackeus] - for the "show don't tell" idea and for providing {this gist on linebreaks}[https://gist.github.com/1149392]
 * {Peter Hellberg}[http://peterhellberg.info] - for catching copy mistakes
 * {Peter Cooper}[http://peterc.org] - for providing me with a copy of the "Beginning Ruby" book and for pointing out the difference between a story vs. topic based approach to teaching
 
