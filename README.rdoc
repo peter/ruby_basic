@@ -17,6 +17,7 @@ Experience with object oriented programming.
 
 * {Johan Lind}[https://twitter.com/#!/jlind] - for feedback on the schedule (breaks and exercises), what the students need to bring to the course, course evaluation, and for reminding me of the "show don't tell" idea
 * {Peter Lind}[http://twitter.com/#!/peter_lind] - for various great feedback. Ruby is your friend, not your parent...
+* {David Backeus}[https://github.com/dbackeus] - reminded me of "show don't tell" too and provided {this gist on linebreaks}[https://gist.github.com/1149392]
 * {Peter Hellberg}[http://peterhellberg.info] - for catching copy mistakes
 * {Peter Cooper}[http://peterc.org] - for providing me with a copy of the "Beginning Ruby" book and for pointing out the difference between a story vs. topic based approach to teaching
 

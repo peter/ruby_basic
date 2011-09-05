@@ -290,7 +290,7 @@ naive implementation.</p>
             <div class="method-source-code" id="const_missing-source">
 <pre>
 <span class="ruby-comment"># File lib/12_reflection_and_meta_programming/hooks.rb, line 9</span>
-<span class="ruby-keyword">def</span> <span class="ruby-constant">Object</span>.<span class="ruby-identifier">const_missing</span>(<span class="ruby-identifier">name</span>) 
+<span class="ruby-keyword">def</span> <span class="ruby-constant">Object</span>.<span class="ruby-identifier">const_missing</span>(<span class="ruby-identifier">name</span>)
   <span class="ruby-ivar">@looked_for</span> <span class="ruby-operator">||=</span> {} 
   <span class="ruby-identifier">str_name</span> = <span class="ruby-identifier">name</span>.<span class="ruby-identifier">to_s</span> 
   <span class="ruby-identifier">raise</span> <span class="ruby-node">&quot;Class not found: #{name}&quot;</span> <span class="ruby-keyword">if</span> <span class="ruby-ivar">@looked_for</span>[<span class="ruby-identifier">str_name</span>] 

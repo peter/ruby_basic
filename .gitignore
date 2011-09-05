@@ -5,4 +5,5 @@ Gemfile.lock
 pkg/*
 lib/test.rb
 lib/test2.rb
-
+doc/lib/test_rb.html
+doc/lib/test2_rb.html
