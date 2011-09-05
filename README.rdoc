@@ -7,7 +7,7 @@ This is course material for a two day introductory course on Ruby programming. I
 * Slides (Slides.key and Slides.pdf)
 * Code examples (the lib directory, referenced from the slides)
 
-There are plans to complete this course material with exercises but this work has not been completed yet. In the meantime I will be referring mostly to the Ruby Koans, see exercises.rdoc.
+For the exercise part of the course we will be using the excellent {Ruby Koans}[http://rubykoans.com], see exercises.rdoc.
 
 == Prerequisites
 

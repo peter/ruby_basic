@@ -29,7 +29,7 @@ end
 
 first = ComplexNumber.new(1, 0)
 second = ComplexNumber.new(0, 1)
-first + second
-first - second
-first / second
-first * second
+addition = first + second
+subtraction = first - second
+division = first / second
+multiplication = first * second

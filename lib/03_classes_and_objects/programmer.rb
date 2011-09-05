@@ -1,4 +1,4 @@
-require 'person'
+require '03_classes_and_objects/person'
 
 class Programmer < Person
   def initialize(name, favorite_ide)
