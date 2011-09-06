@@ -1,50 +1,93 @@
 = Exercises
 
-== Make Sure Ruby is Installed
+== Install Ruby and an Editor/IDE
 
-* This course was developed using MRI Ruby version 1.9.2. You may check your ruby version by invoking ruby -v on the command line.
-* A good way to install ruby is to use the {Ruby Version Manager (RVM)}[http://beginrescueend.com]
-* You can try running ruby commands interactively with the +irb+ (Interactive Ruby) command or execute ruby scripts with the +ruby+ command. Both +irb+ and +ruby+ can be invoked on the command line. Both commands accept a +--help+ option that gives you a good overview of how they work.
+This course was developed using MRI Ruby version 1.9.2 but most of what is taught here applies to earlier versions as well. Check your ruby version by invoking ruby -v on the command line. A good way to install ruby is to use the {Ruby Version Manager (RVM)}[http://beginrescueend.com]. Please consult {the official download and installation instructions}[http://www.ruby-lang.org/en/downloads/] to find the best installation option for your operating system.
 
-== Download the Course Material
+You can run ruby commands interactively with the +irb+ (Interactive Ruby) command or execute ruby scripts with the +ruby+ command. Both of these commands can be invoked on the command line and they are also available inside some editors and IDEs. Both commands accept a +--help+ option that gives you a good overview of how they work.
 
-  # 1. a) If you have git installed on your machine:
-  cd <dir-where-you-want-to-keep-the-code>
-  git clone git@github.com:peter/ruby_basic.git
-  cd ruby_basic
+Examples of editors that you can use are vim, Emacs, {TextMate}[http://macromates.com] (Mac only), {Crimson}[http://www.crimsoneditor.com] (Windows only), {jEdit}[http://www.jedit.org/], and {RedCar}[http://redcareditor.com]. If you prefer an IDE then take a look at {RubyMine}[http://www.jetbrains.com/ruby], {Aptana}[http://www.aptana.com], or {the RDT plugin for Eclipse}[http://www.ibm.com/developerworks/opensource/library/os-rubyeclipse/] (see {What Ruby IDE do you prefer?}[http://stackoverflow.com/questions/16991/what-ruby-ide-do-you-prefer] on Stack Overflow for more options).
 
-  # 1. b) If you don't have git installed
-  cd <dir-where-you-want-to-keep-the-code>
-  curl -o ruby_basic.tar.gz https://nodeload.github.com/peter/ruby_basic/tarball/master
-  tar xzvf ruby_basic.tar.gz
-  cd <dir-that-was-expanded-by-tar>
+As you are working through the exercises and the code examples, make sure to consult the {Ruby Core Reference}[http://www.ruby-doc.org/core] as well as the {Ruby Standard Library Reference}[http://www.ruby-doc.org/stdlib] as needed.
 
-== Understand the Code Examples
+Assuming you are standing in the exercises directory (the Ruby Koans), here is an example of how to run an exercise from the command line:
 
-* Try running the example code in the lib directory by invoking ruby on the command line
-* Make sure you understand what is going on
-* Try modifying the code to alter its behaviour
-* Consult the {Ruby Core Reference}[http://www.ruby-doc.org/core] as well as the {Ruby Standard Library Reference}[http://www.ruby-doc.org/stdlib] as needed
-* Try running some of the Ruby code interactively in the irb console (invoke irb on the command line).
-* Ask questions!
+  ruby -w koans/about_asserts.rb
 
-Here is an example of how you can run a code example file:
+== Exercise Block 1
 
-  ruby -w lib/02_structure_and_execution/external_programs.rb
+=== Code Examples
 
-== Work Through the Ruby Koans Exercises
+* lib/02_structure_and_execution
+* lib/03_datatypes
+* lib/04_control_structures
 
-Install the {Ruby Koans}[http://rubykoans.com] and work through the exercises. The Ruby Koans will teach you not only Ruby, but also a Test Driven mindset that is prevalent in the Ruby community. Here is how you can download and start using the Ruby Koans (assuming you are in a Unix type terminal):
-  # 1. a) Checkout from github if you have git installed on your machine
-  cd <dir-where-you-keep-your-code>
-  git clone https://github.com/edgecase/ruby_koans.git
-  cd ruby_koans
+=== Exercises
 
-  # 1. b) If you don't have Git installed, download the Koans instead:
-  cd <dir-where-you-keep-your-code>
-  curl -o koans.tar.gz https://nodeload.github.com/edgecase/ruby_koans/tarball/master
-  tar xzvf koans.tar.gz
-  cd <dir-that-was-expanded-by-tar>
+* koans/about_asserts.rb
+* koans/about_strings.rb
+* koans/about_arrays.rb
+* koans/about_iteration.rb
+* koans/about_hashes.rb
+* koans/about_control_statements.rb
+* koans/about_exceptions.rb
+* koans/about_symbols.rb
+* koans/about_regular_expressions.rb
 
-  # 2. Execute the Koans and follow the instructions
-  ruby koans/path_to_enlightenment.rb
+== Exercise Block 2
+
+=== Code Examples
+
+* lib/05_variables_and_constants
+* lib/06_boolean_expressions_and_assignments
+
+=== Exercises
+
+* koans/about_true_and_false.rb
+* koans/about_constants.rb
+* koans/about_nil.rb
+* koans/about_array_assignment.rb
+
+== Exercise Block 3
+
+=== Code Examples
+
+* lib/07_classes_and_objects
+* lib/08_modules
+* lib/09_methods_and_operators
+
+=== Exercises
+
+* koans/about_methods.rb
+* koans/about_classes.rb
+* koans/about_class_methods.rb
+* koans/about_modules.rb
+* koans/about_inheritance.rb
+
+== Exercise Block 4
+
+=== Code Examples
+
+* lib/10_blocks_and_proc_objects
+* lib/11_reflection_and_meta_programming
+* lib/12_standard_library
+* lib/13_rubygems_and_bundler
+
+=== Exercises
+
+* koans/about_blocks.rb
+* koans/about_sandwich_code.rb
+* koans/about_objects.rb
+* koans/about_open_classes.rb
+* koans/about_message_passing.rb
+* koans/about_proxy_object_project.rb
+
+== Bonus Exercises
+
+* koans/about_triangle_project.rb
+* koans/about_triangle_project_2.rb
+* koans/about_scoring_project.rb
+* koans/about_dice_project.rb
+* koans/about_to_str.rb
+* koans/about_scope.rb
+* koans/about_extra_credit.rb

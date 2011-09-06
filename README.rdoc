@@ -4,33 +4,31 @@
 
 This is course material for a two day introductory course on Ruby programming. Included here are:
 
-* Slides (Slides.key and Slides.pdf)
-* Code examples (the lib directory, referenced from the slides)
+* Slides ({download keynote}[https://github.com/peter/ruby_basic/raw/master/Slides.key], {download pdf}[https://github.com/peter/ruby_basic/raw/master/Slides.pdf])
+* Code examples (under the lib directory, referenced from the slides)
 
-For the exercise part of the course we will be using the excellent {Ruby Koans}[http://rubykoans.com], see exercises.rdoc.
+For the exercise part of the course I will be referring the excellent {Ruby Koans}[http://rubykoans.com], see {exercises.rdoc}[https://github.com/peter/ruby_basic/blob/master/exercises.rdoc].
+
+== Prerequisites
+
+* Participants should have experience with object oriented programming
+* Each participant should have a computer with Ruby 1.9 and an IDE/Editor installed
 
 == Contents at a Glance
-
-The contents and structure of the course is highly influenced by the {The Ruby Programming Language}[http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177] book by David Flanagan.
 
 1. Ruby Introduction
 2. Structure and Execution
 3. Datatypes
 4. Control Structures
 5. Variables and Constants
-6. Boolean Expressions
-7. Assignment
-8. Classes and Objects
-9. Modules
-10. Methods and Operators
-11. Blocks and Proc Objects
-12. Reflection and Meta Programming
-13. Standard Library
-14. RubyGems and Bundler
-
-== Prerequisites
-
-Experience with object oriented programming.
+6. Boolean Expressions and Assignments
+7. Classes and Objects
+8. Modules
+9. Methods and Operators
+10. Blocks and Proc Objects
+11. Reflection and Meta Programming
+12. Standard Library
+13. RubyGems and Bundler
 
 == Credits
 

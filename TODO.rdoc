@@ -1,4 +1,5 @@
 * Test example code: for file in $(find lib -iname '*.rb'); do ruby -Ilib -w $file >> /dev/null; done
+* Reduce the scope of the course to be able to spend more time on each topic (current scope more suitable for 3-5 days)?
 * Incorporate ideas from Beginning Ruby book by Peter Cooper
 * Enumerating strings with String#enum_for(:each_char|:each_byte|:each_line)?
 * Exercises in addition to Koans?
