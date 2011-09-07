@@ -14,6 +14,8 @@ Assuming you are standing in the exercises directory (the Ruby Koans), here is a
 
   ruby -w koans/about_asserts.rb
 
+When you run the test case you get a line number in the file where a test is failing. Your job is to open the test file, edit it to make the failing test pass, and then re-run the test. Usually you'll find "__" placeholders in the file where you should fill in the correct value. Continue editing and re-running the test case until all tests pass. Then move on to the next file in the list. Check out {the Ruby Koans homepage}[http://rubykoans.com] for more information about the exercises.
+
 == Exercise Block 1
 
 === Code Examples
@@ -91,3 +93,50 @@ Assuming you are standing in the exercises directory (the Ruby Koans), here is a
 * koans/about_to_str.rb
 * koans/about_scope.rb
 * koans/about_extra_credit.rb
+
+== Where Students Get Stuck
+
+  ###########################################################
+  # about_arrays.rb
+  ###########################################################
+
+  def test_slicing_arrays
+    array = [:peanut, :butter, :and, :jelly]
+  
+    assert_equal __, array[0,1]
+    assert_equal __, array[0,2]
+    assert_equal __, array[2,2]
+    assert_equal __, array[2,20]
+    # See http://stackoverflow.com/questions/3568222/array-slicing-in-ruby-looking-for-explanation-for-illogical-behaviour-taken-fro
+    assert_equal __, array[4,0] # this will be an empty array as 4 is a valid index for a sub array (it's right after the last object)
+    assert_equal __, array[4,100]
+    assert_equal __, array[5,0] # this will be nil as 5 is not a valid index in the array
+  end
+
+  def test_arrays_and_ranges
+    assert_equal __, (1..5).class
+    assert_not_equal [1,2,3,4,5], (1..5)
+    assert_equal __, (1..5).to_a # two dots means the range end point is included (inclusive range)
+    assert_equal __, (1...5).to_a # three dots means that the range end point is not included (exclusive range)
+  end
+
+  ###########################################################
+  # about_iteration.rb
+  ###########################################################
+
+  # For information about how inject works, see (let me google that for you):
+  #
+  # http://www.ruby-doc.org/core/classes/Enumerable.html
+  # http://blog.jayfields.com/2008/03/ruby-inject.html
+  #
+  def test_inject_will_blow_your_mind
+    result = [2, 3, 4].inject(0) { |sum, item| sum + item }
+    assert_equal __, result
+
+    result2 = [2, 3, 4].inject(1) { |product, item| product * item }
+    assert_equal __, result2
+
+    # Extra Credit:
+    # Describe in your own words what inject does.
+  end
+  
