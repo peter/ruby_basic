@@ -94,7 +94,9 @@ When you run the test case you get a line number in the file where a test is fai
 * koans/about_scope.rb
 * koans/about_extra_credit.rb
 
-== Where Students Get Stuck
+== Help for Tricky Exercises
+
+Below you will find snippets of code from the Ruby Koans exercises with helpful notes where students tend to get stuck. The notes are marked up with the keyword HELP!.
 
   ###########################################################
   # about_arrays.rb
@@ -107,24 +109,24 @@ When you run the test case you get a line number in the file where a test is fai
     assert_equal __, array[0,2]
     assert_equal __, array[2,2]
     assert_equal __, array[2,20]
-    # See http://stackoverflow.com/questions/3568222/array-slicing-in-ruby-looking-for-explanation-for-illogical-behaviour-taken-fro
-    assert_equal __, array[4,0] # this will be an empty array as 4 is a valid index for a sub array (it's right after the last object)
+    # HELP! see http://stackoverflow.com/questions/3568222/array-slicing-in-ruby-looking-for-explanation-for-illogical-behaviour-taken-fro
+    assert_equal __, array[4,0] # HELP! this will be an empty array as 4 is a valid index for a sub array (it's right after the last object)
     assert_equal __, array[4,100]
-    assert_equal __, array[5,0] # this will be nil as 5 is not a valid index in the array
+    assert_equal __, array[5,0] # HELP! this will be nil as 5 is not a valid index in the array
   end
 
   def test_arrays_and_ranges
     assert_equal __, (1..5).class
     assert_not_equal [1,2,3,4,5], (1..5)
-    assert_equal __, (1..5).to_a # two dots means the range end point is included (inclusive range)
-    assert_equal __, (1...5).to_a # three dots means that the range end point is not included (exclusive range)
+    assert_equal __, (1..5).to_a # HELP! two dots means the range end point is included (inclusive range)
+    assert_equal __, (1...5).to_a # HELP! three dots means that the range end point is not included (exclusive range)
   end
 
   ###########################################################
   # about_iteration.rb
   ###########################################################
 
-  # For information about how inject works, see (let me google that for you):
+  # HELP! you may need to read up on how inject works here, see (let me google that for you):
   #
   # http://www.ruby-doc.org/core/classes/Enumerable.html
   # http://blog.jayfields.com/2008/03/ruby-inject.html
@@ -139,4 +141,20 @@ When you run the test case you get a line number in the file where a test is fai
     # Extra Credit:
     # Describe in your own words what inject does.
   end
-  
+
+  # HELP! here you actually need to leave the file and go out and create the
+  # example_file.txt in your current directory and fill it with a few lines
+  def test_all_iteration_methods_work_on_any_collection_not_just_arrays
+    # Ranges act like a collection
+    result = (1..3).map { |item| item + 10 }
+    assert_equal __, result
+
+    # Files act like a collection of lines
+    File.open("example_file.txt") do |file|
+      upcase_lines = file.map { |line| line.strip.upcase }
+      assert_equal __, upcase_lines
+    end
+
+    # NOTE: You can create your own collections that work with each,
+    # map, select, etc.
+  end
