@@ -126,10 +126,13 @@ Below you will find snippets of code from the Ruby Koans exercises with helpful 
   # about_iteration.rb
   ###########################################################
 
-  # HELP! you may need to read up on how inject works here, see (let me google that for you):
+  # HELP! you may need to read up on how inject works here, see:
   #
   # http://www.ruby-doc.org/core/classes/Enumerable.html
-  # http://blog.jayfields.com/2008/03/ruby-inject.html
+  #
+  # Why do we need Ruby inject? Ruby inject offers a concise alternative to a traditional loop working on a local variable, see:
+  #
+  # https://gist.github.com/d1ee408e5ccabf056262
   #
   def test_inject_will_blow_your_mind
     result = [2, 3, 4].inject(0) { |sum, item| sum + item }
@@ -158,3 +161,28 @@ Below you will find snippets of code from the Ruby Koans exercises with helpful 
     # NOTE: You can create your own collections that work with each,
     # map, select, etc.
   end
+
+  ###########################################################
+  # about_hashes.rb
+  ###########################################################
+
+  def test_default_value
+    hash1 = Hash.new
+    hash1[:one] = 1
+
+    assert_equal __, hash1[:one]
+    assert_equal __, hash1[:two]
+
+    # HELP! Here we are creating a hash here with a default value of "dos". This means that if we try to
+    # read a key from the hash that doesn't exist, then we get "dos" back (instead of nil which is the default).
+    # For more info on Ruby Hash, see:
+    #
+    # http://www.ruby-doc.org/core/classes/Hash.html
+    #
+    hash2 = Hash.new("dos")
+    hash2[:one] = 1
+
+    assert_equal __, hash2[:one]
+    assert_equal __, hash2[:two]
+  end
+  
