@@ -11,7 +11,7 @@ rescue LoadError
   puts "\n* We cannot load the Person class yet since its directory is not in the load path"
 end
 
-person_dir = File.expand_path(File.join(File.dirname(__FILE__), '..', '03_classes_and_objects'))
+person_dir = File.expand_path(File.join(File.dirname(__FILE__), '..', '07_classes_and_objects'))
 puts "\nAdding #{person_dir} to load path"
 $: << person_dir
 

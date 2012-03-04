@@ -2,7 +2,7 @@
 # The reason we do this here is so that we Ruby will find the Person
 # class when we require it. You can invoke ruby on the command line with the I option
 # to add directories to the load path.
-$:.unshift(File.dirname(__FILE__) + '/../03_classes_and_objects')
+$:.unshift(File.dirname(__FILE__) + '/../07_classes_and_objects')
 
 # Makes sure a class is required automatically whenever it is used.
 # This is a naive implementation.
